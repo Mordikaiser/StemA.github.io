@@ -118,9 +118,9 @@ footer {
         grid-template-areas: "sidebar" "main" "content2" "content3" "footer";
     }
     .intro p {
-        font-size: 12vw;
+        font-size: 5vw;
     }
     .intro h1 {
-        font-size: 16vw;
+        font-size: 6vw;
     }
 }
