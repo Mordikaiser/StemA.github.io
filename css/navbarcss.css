@@ -57,7 +57,7 @@ main {
     grid-template-areas: "main" "footer";
     font-weight: bold;
     font-family: "Roboto", sans-serif;
-    font-size: 12vw;
+    font-size: 30vw;
     line-height: 5vh;
 }
 
