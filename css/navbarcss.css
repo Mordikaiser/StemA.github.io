@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+body {
+    overflow-x: hidden;
+    font-family: "Roboto", sans-serif;
+    background-color: #fac5c5;
+}
+
+a:any-link {
+    text-decoration: none;
+}
+
+header {}
+
+nav.Navigation {
+    background-color: black;
+    padding: 2vh;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    top: 0px;
+}
+
+.Navbuttons {
+    display: flex;
+}
+
+.Navbuttons li {
+    margin-left: 2vw;
+    margin-right: 8vw;
+}
+
+.Navbuttons a:hover {
+    transition: 0.5s;
+    color: black;
+    background-color: whitesmoke;
+}
+
+nav.Navigation a {
+    color: white;
+}
+
+main {
+    background-color: #fac5c5;
+    color: black;
+    grid-area: main;
+}
+
+.container {
+    display: grid;
+    padding: 10vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "main" "footer";
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+}
+
+.intro h1 {
+    font-size: 20px;
+    line-height: 3vh;
+}
+
+.intro p {
+    font-size: 12px;
+    line-height: 2vw;
+}
+
+.intro {
+    padding: 2vh;
+}
+
+footer {
+    background: #00ff7f;
+    grid-area: footer;
+}
+
+@media only screen and (max-width: 550px),
+{
+    .intro p {
+        font-size: 3vw;
+        line-height: 115%;
+    }
+    .intro h1 {
+        font-size: 5vw;
+        line-height: 120%;
+    }
+    nav.Navigation {
+        background-color: black;
+        padding: 1vh;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        width: 100vw;
+        top: 0px;
+    }
+    #Searchbutton {
+        width: 10vw;
+        display: inline;
+        margin-right: 10vw;
+    }
+}
